@@ -3,10 +3,10 @@ import React from 'react'
 function Header() {
   return (
     <>
-    <header>
+    <header className='p-5 border-b flex gap-4'>
         <Link href="/">About</Link>
-        <Link href="/">Home</Link>
-        <Link href="/">Contact</Link>
+        <Link href="/About">Home</Link>
+        <Link href="/Contact">Contact</Link>
     </header>
     </>
   )
