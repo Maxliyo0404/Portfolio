@@ -5,8 +5,8 @@ function Header() {
     <>
     <header>
         <Link href="/">About</Link>
-        <Link href="/">About</Link>
-        <Link href="/">About</Link>
+        <Link href="/">Home</Link>
+        <Link href="/">Contact</Link>
     </header>
     </>
   )
