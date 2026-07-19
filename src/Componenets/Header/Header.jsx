@@ -2,7 +2,13 @@ import Link from 'next/link'
 import React from 'react'
 function Header() {
   return (
-    <div>Header</div>
+    <>
+    <header>
+        <Link href="/">About</Link>
+        <Link href="/">About</Link>
+        <Link href="/">About</Link>
+    </header>
+    </>
   )
 }
 
